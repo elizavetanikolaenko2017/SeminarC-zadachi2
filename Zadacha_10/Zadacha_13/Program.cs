@@ -6,3 +6,14 @@
 32679 -> 6
 */
 
+System.Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number>100 && number<100000)
+{
+    int x= number%100;
+    System.Console.Write(x);
+}
+else
+{
+    System.Console.Write("Третьей цифры нет");
+}
